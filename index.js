@@ -12,6 +12,7 @@ const app = express();
 const allowedOrigins = [
   'http://localhost:5173',
   'https://hr360dashboard-omikunle-ademola.netlify.app',
+  'https://blog-app-omikunle-ademola.vercel.app'
 ];
 const corsOptions = {
   origin: function (origin, callback) {
